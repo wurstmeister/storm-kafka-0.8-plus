@@ -51,7 +51,8 @@ public class KafkaTestBroker {
     }
 
     private String getLogDir() {
-        return System.getProperty("java.io.tmpdir") + "kafka/logs/kafka-test-" + port;
+        File logDir = new File(System.getProperty("java.io.tmpdir"), "kafka/logs/kafka-test-" + port);
+        return logDir.getAbsolutePath();
     }
 
     public String getBrokerConnectionString() {
