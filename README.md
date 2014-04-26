@@ -1,17 +1,23 @@
 storm-kafka-0.8-plus
 ====================
 
-Port of storm-kafka to support kafka >= 0.8
+##NOTE:
 
-##Usage:
-For information on how to use this library in your project see:
+This library is now part of https://github.com/apache/incubator-storm
 
-[https://clojars.org/net.wurstmeister.storm/storm-kafka-0.8-plus](https://clojars.org/net.wurstmeister.storm/storm-kafka-0.8-plus)
+Please submit any issues to [JIRA](https://issues.apache.org/jira/browse/STORM) 
 
+--------------------------------------------------------------
 
 ##Example Topologies:
 
 [https://github.com/wurstmeister/storm-kafka-0.8-plus-test](https://github.com/wurstmeister/storm-kafka-0.8-plus-test)
+
+##Docker Images:
+[https://github.com/wurstmeister/storm-docker](https://github.com/wurstmeister/storm-docker)
+
+[https://github.com/wurstmeister/kafka-docker](https://github.com/wurstmeister/kafka-docker)
+
 
 ##Acknowledgement:
 
